@@ -1,7 +1,7 @@
 ---
   title: "TIL: How .gitignore Made My Files Disappear"
   ---
-  Today I learned how easy it is to lose track of your repository's state when jumping between different files and directories, and how a few precise Git diagnostic commands can completely demystify "missing" files.
+  This week, my Python files vanished from git status. I assumed I'd broken something. I hadn't — and the fix was learning to read what Git was actually telling me.
 
 Here is how the detective work unfolded.
 
@@ -14,7 +14,7 @@ I assumed I had messed up my .gitignore rules. I figured a bad pattern was silen
 3. The Diagnostic Commands
 
 To test this, I went full detective mode and ran:
-Bash
+bash
 
 # Check what changed in my ignore rules
 git diff .gitignore
