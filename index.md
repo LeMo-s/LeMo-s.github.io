@@ -3,4 +3,4 @@
 
 ## Posts
   - [TIL: How .gitignore Made My Files Disappear](til-gitignore-hiding-files.html)
-  - [TIL: How .gitignore Made My Files Disappear](til-imperative-vs-declarative-polars.html)
+  - [TIL: Imperative using no library vs Declarative using Polars](til-imperative-vs-declarative-polars.html)
